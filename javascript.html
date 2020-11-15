@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Домашнее задание по модулю 3.1</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/header.png" alt="" class="header-img">
+        <p class="header-text">Практическое задание по курсу Разработка Веб-приложений</p>
+    </header>
+
+
+
+    <div class="container">
+        <main class="main">
+            <section>
+                <h1>Практическое задание 3.1</h1>
+                <p class="javaPrimer">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores repellat,
+                    blanditiis
+                    tempora et, iure ipsum minus deserunt voluptates fugit dolores, ab placeat quae non asperiores
+                    magni!
+                    Illum provident accusamus esse!</p>
+                <p class="javaPrimer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error saepe dolores
+                    adipisci
+                    consequatur provident facere eum est aliquam rem a sunt culpa debitis obcaecati, officia reiciendis,
+                    cupiditate voluptas dolorem quisquam.</p>
+            </section>
+
+            <section>
+                <h2>Форматирование текста</h2>
+                <form action="/">
+                    <div>
+                        <label for="fontSize">Выберите размер текста: </label>
+                        <select name="fontSize" id="fontSize">
+                            <option selected value="16">16 px</option>
+                            <option value="20">20 px</option>
+                            <option value="30">30 px</option>
+                            <option value="50">50 px</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="fontColor">Выберите цвет текста: </label>
+                        <select name="fontColor" id="fontColor">
+                            <option selected value="black">Черный</option>
+                            <option value="red">Красный</option>
+                            <option value="blue">Синий</option>
+                            <option value="green">Зелёный</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <button onclick="formText()">Изменить текст</button>
+                    </div>
+      
+                </form>
+            </section>
+
+
+
+
+            <section>
+                <h3>Вывод даты</h3>
+                <button onclick="todayDate()">Сегодняшняя дата</button>
+            </section>
+
+
+
+        </main>
+
+
+
+        <nav class="nav">
+
+            <div class="nav-heading">
+                <p class="nav-heading-text">Навигация</p>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">html + css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript.html" class="nav-link">JavaScript</a>
+                </li>
+                <li class="nav-item">
+                    <a href="jQuery.html" class="nav-link">JQuery</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

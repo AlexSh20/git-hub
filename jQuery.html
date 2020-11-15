@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Домашнее задание по модулю 3.2</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/header.png" alt="" class="header-img">
+        <p class="header-text">Практическое задание по курсу Разработка Веб-приложений</p>
+    </header>
+
+
+
+    <div class="container">
+        <main class="main">
+            <h1>Практическое задание 3.2</h1>
+
+            <section class="section-products">
+
+                <p class="section-products-heading">Список продуктов</p>
+
+                <ul class="food-List">
+                </ul>
+
+                <input type="text" placeholder="Напишите сюда продукт " id="foodItem">
+
+                <button class="section-products-button" onclick="addFoodList()">Добавить в список</button>
+
+            </section>
+
+            <section class="section-shops">
+
+                <div id="addShopHere"></div>
+
+                <button class="section-shops-button" onclick="addShopsList()">Загрузить список магазинов</button>
+            </section>
+
+
+
+
+
+
+
+        </main>
+
+
+
+        <nav class="nav">
+
+            <div class="nav-heading">
+                <p class="nav-heading-text">Навигация</p>
+            </div>
+
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">html + css</a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript.html" class="nav-link">JavaScript</a>
+                </li>
+                <li class="nav-item">
+                    <a href="jQuery.html" class="nav-link">JQuery</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jqueryScripts.js"></script>
+
+</body>
+
+</html>
